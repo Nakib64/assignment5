@@ -29,7 +29,7 @@
                 <img src="assets/checkbox.png" alt="checkbox" class="w-6 h-auto">
                 <p id="finished">22</p>
             </div>
-            <img src="assets/theme-btn.png" alt="theme-btn">
+            <img src="assets/theme-btn.png" alt="theme-btn" id="random">
         </div>
     </nav>
 
@@ -48,12 +48,12 @@
                     </div>
                 </div>
                 <!--  -->
-                <div class="col-span-2 bg-gradient-to-l from-sky-500 to-indigo-500 p-2 px-6 flex gap-4 items-center rounded-xl" id="ab">
+                <div id="next" class="col-span-2 bg-gradient-to-l from-sky-500 to-indigo-500 p-2 px-6 flex gap-4 items-center rounded-xl">
                     <div>
                         <img src="assets/board.png" alt="board" class="">
                     </div>
                     <div>
-                        <h3 class="text-white text-2xl" >Discover Something New Today!</h3>
+                        <h3 class="text-white text-2xl">Discover Something New Today!</h3>
                     </div>
                 </div>
                 <!--  -->
@@ -185,6 +185,18 @@
     <script src="createElement.js"></script>
     <script src="clearbtn.js"></script>
     <script src="backBtn.js"></script>
+    <script src="random.js"></script>
+    <!-- <script>
+        
+    document.getElementById("random").addEventListener("click", function() {
+      // Generate a random color
+      let randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+      
+      // Apply the color to the background
+      document.body.style.backgroundColor = randomColor;
+    });
+  
+    </script> -->
     
 </body>
 </html> 

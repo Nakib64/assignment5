@@ -23,10 +23,8 @@ document.getElementById("button1").addEventListener("click", function(event){
      buttonEfect(event);
      document.getElementById("button1").disabled=true;
      document.getElementById("button1").style.background= "gray";
-
      const time = new Date()
      let headline= document.getElementById("headline1").innerText;
-     console.log(headline)
      createElement(headline,time);
 })
 
@@ -38,7 +36,6 @@ document.getElementById("button2").addEventListener("click", function(){
      document.getElementById("button2").style.background= "gray";
      const time = new Date()
      let headline= document.getElementById("headline2").innerText;
-     console.log(headline)
      createElement(headline,time);
 })
 document.getElementById("button3").addEventListener("click", function(){
@@ -47,7 +44,6 @@ document.getElementById("button3").addEventListener("click", function(){
      document.getElementById("button3").style.background= "gray";
      const time = new Date()
      let headline= document.getElementById("headline3").innerText;
-     console.log(headline)
      createElement(headline,time);
 })
 document.getElementById("button4").addEventListener("click", function(){
@@ -56,7 +52,6 @@ document.getElementById("button4").addEventListener("click", function(){
      document.getElementById("button4").style.background= "gray";
      const time = new Date()
      let headline= document.getElementById("headline4").innerText;
-     console.log(headline)
      createElement(headline,time);
 })
 document.getElementById("button5").addEventListener("click", function(){
@@ -65,7 +60,6 @@ document.getElementById("button5").addEventListener("click", function(){
      document.getElementById("button5").style.background= "gray";
      const time = new Date()
      let headline= document.getElementById("headline5").innerText;
-     console.log(headline)
      createElement(headline,time);
 })
 document.getElementById("button6").addEventListener("click", function(){
@@ -74,6 +68,5 @@ document.getElementById("button6").addEventListener("click", function(){
      document.getElementById("button6").style.background= "gray";
      const time = new Date()
      let headline= document.getElementById("headline6").innerText;
-     console.log(headline)
      createElement(headline,time);
 })

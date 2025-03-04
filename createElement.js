@@ -5,3 +5,7 @@ function createElement(headline,time){
     document.getElementById("submision").appendChild(p);
 }
 
+const a = document.getElementById("next");
+a.addEventListener("click", function(){
+    window.location.href= "main.html";
+})
