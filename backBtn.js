@@ -1,0 +1,7 @@
+document.getElementById("backBtn").addEventListener("click", function(){
+    window.location.href = "index.html";
+})
+
+document.getElementById("ab").addEventListener("click", function(){
+    console.log("hi")
+})

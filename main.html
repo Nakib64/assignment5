@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+
+    <title>2nd page</title>
+</head>
+<body class="bg-sky-50">
+    <nav class="flex justify-between mx-auto xl:container bg-white px-4 py-2 rounded-lg text-2xl mb-6">
+        <div id="logo" class="flex gap-4 items-center">
+            <img src="assets/logo.png" alt="logo">
+            <p>Dev<span class="font-bold">Board</span></p>
+        </div>
+        <div class="flex items-center gap-4">
+            <button class="text-2xl px-6 py-2 bg-blue-600 rounded-2xl text-white" id="backBtn">Back</button>
+        </div>
+    </nav>
+
+    <div class="xl:container mx-auto flex flex-col gap-4">
+    <div class="xl:container bg-white p-4">
+        <h1 class="font-bold border-b-slate-500 border-dotted">Question 1: What is the different ways to select elements in DOM?</h1>
+        <P>We can select elemnts using getElementbyid, getElementsByClass, quarySelector, quarySelectorAll</P>
+    </div>
+    <div class="xl:container bg-white p-4">
+        <h1 class="font-bold">Question 1: What is the difference between innerText, innerHtml, innercontent?</h1>
+        <P>we can use tags in innerHtml and we can use only text in innerText</P>
+    </div>
+    <div class="xl:container bg-white p-4">
+        <h1 class="font-bold">Question 1: What is the event delagation?</h1>
+        <P>I don't know.</P>
+    </div>
+    <div class="xl:container bg-white p-4">
+        <h1 class="font-bold">Question 1: What is the event bubling ?</h1>
+        <P>If an element is in nested elements, and the parent has an style, the element will get the parent's style too</P>
+    </div>
+</div>
+
+<script src="backBtn.js"></script>
+    
+</body>
+</html>
